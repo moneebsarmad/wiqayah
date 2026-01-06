@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001000000001 /* WiqayahApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000001 /* WiqayahApp.swift */; };
+		001000000010 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000010 /* User.swift */; };
+		001000000011 /* BlockedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000011 /* BlockedApp.swift */; };
+		001000000012 /* UsageSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000012 /* UsageSession.swift */; };
+		001000000013 /* DhikrRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000013 /* DhikrRequirement.swift */; };
+		001000000014 /* DailyStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000014 /* DailyStats.swift */; };
+		001000000015 /* VerificationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000015 /* VerificationResult.swift */; };
+		001000000016 /* DhikrSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000016 /* DhikrSession.swift */; };
+		001000000020 /* AppBlockerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000020 /* AppBlockerService.swift */; };
+		001000000021 /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000021 /* SpeechRecognitionService.swift */; };
+		001000000022 /* DhikrVerificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000022 /* DhikrVerificationService.swift */; };
+		001000000023 /* UsageTrackingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000023 /* UsageTrackingService.swift */; };
+		001000000024 /* PrayerTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000024 /* PrayerTimeService.swift */; };
+		001000000025 /* SubscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000025 /* SubscriptionService.swift */; };
+		001000000026 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000026 /* NotificationService.swift */; };
+		001000000030 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000030 /* CoreDataManager.swift */; };
+		001000000031 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000031 /* AuthManager.swift */; };
+		001000000040 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000040 /* Constants.swift */; };
+		001000000041 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000041 /* Extensions.swift */; };
+		001000000042 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000042 /* HapticManager.swift */; };
+		001000000043 /* MotivationalMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000043 /* MotivationalMessages.swift */; };
+		001000000050 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000050 /* ProgressBar.swift */; };
+		001000000051 /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000051 /* AppIconView.swift */; };
+		001000000052 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000052 /* WaveformView.swift */; };
+		001000000053 /* PremiumBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000053 /* PremiumBadge.swift */; };
+		001000000060 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000060 /* OnboardingContainerView.swift */; };
+		001000000061 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000061 /* WelcomeView.swift */; };
+		001000000062 /* HowItWorksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000062 /* HowItWorksView.swift */; };
+		001000000063 /* SelectAppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000063 /* SelectAppsView.swift */; };
+		001000000064 /* SetLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000064 /* SetLimitView.swift */; };
+		001000000065 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000065 /* PermissionsView.swift */; };
+		001000000070 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000070 /* HomeView.swift */; };
+		001000000071 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000071 /* StatsView.swift */; };
+		001000000072 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000072 /* SettingsView.swift */; };
+		001000000080 /* BlockerOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000080 /* BlockerOverlayView.swift */; };
+		001000000081 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000081 /* RecordingView.swift */; };
+		001000000082 /* VerificationResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000082 /* VerificationResultView.swift */; };
+		001000000083 /* PostRecitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000083 /* PostRecitationView.swift */; };
+		001000000084 /* LimitReachedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002000000084 /* LimitReachedView.swift */; };
+		001000000090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002000000090 /* Assets.xcassets */; };
+		001000000091 /* adhkar.json in Resources */ = {isa = PBXBuildFile; fileRef = 002000000091 /* adhkar.json */; };
+		001000000092 /* blocked_apps.json in Resources */ = {isa = PBXBuildFile; fileRef = 002000000092 /* blocked_apps.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		002000000001 /* WiqayahApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiqayahApp.swift; sourceTree = "<group>"; };
+		002000000010 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		002000000011 /* BlockedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedApp.swift; sourceTree = "<group>"; };
+		002000000012 /* UsageSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageSession.swift; sourceTree = "<group>"; };
+		002000000013 /* DhikrRequirement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DhikrRequirement.swift; sourceTree = "<group>"; };
+		002000000014 /* DailyStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyStats.swift; sourceTree = "<group>"; };
+		002000000015 /* VerificationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationResult.swift; sourceTree = "<group>"; };
+		002000000016 /* DhikrSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DhikrSession.swift; sourceTree = "<group>"; };
+		002000000020 /* AppBlockerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBlockerService.swift; sourceTree = "<group>"; };
+		002000000021 /* SpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionService.swift; sourceTree = "<group>"; };
+		002000000022 /* DhikrVerificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DhikrVerificationService.swift; sourceTree = "<group>"; };
+		002000000023 /* UsageTrackingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageTrackingService.swift; sourceTree = "<group>"; };
+		002000000024 /* PrayerTimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeService.swift; sourceTree = "<group>"; };
+		002000000025 /* SubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService.swift; sourceTree = "<group>"; };
+		002000000026 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		002000000030 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		002000000031 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		002000000040 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		002000000041 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		002000000042 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		002000000043 /* MotivationalMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationalMessages.swift; sourceTree = "<group>"; };
+		002000000050 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		002000000051 /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
+		002000000052 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
+		002000000053 /* PremiumBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumBadge.swift; sourceTree = "<group>"; };
+		002000000060 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		002000000061 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		002000000062 /* HowItWorksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowItWorksView.swift; sourceTree = "<group>"; };
+		002000000063 /* SelectAppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAppsView.swift; sourceTree = "<group>"; };
+		002000000064 /* SetLimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLimitView.swift; sourceTree = "<group>"; };
+		002000000065 /* PermissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsView.swift; sourceTree = "<group>"; };
+		002000000070 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		002000000071 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		002000000072 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		002000000080 /* BlockerOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockerOverlayView.swift; sourceTree = "<group>"; };
+		002000000081 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		002000000082 /* VerificationResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationResultView.swift; sourceTree = "<group>"; };
+		002000000083 /* PostRecitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRecitationView.swift; sourceTree = "<group>"; };
+		002000000084 /* LimitReachedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitReachedView.swift; sourceTree = "<group>"; };
+		002000000090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		002000000091 /* adhkar.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = adhkar.json; sourceTree = "<group>"; };
+		002000000092 /* blocked_apps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blocked_apps.json; sourceTree = "<group>"; };
+		002000000093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003000000001 /* Wiqayah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wiqayah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		004000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005000000001 = {
+			isa = PBXGroup;
+			children = (
+				005000000002 /* Wiqayah */,
+				005000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		005000000002 /* Wiqayah */ = {
+			isa = PBXGroup;
+			children = (
+				002000000001 /* WiqayahApp.swift */,
+				005000000010 /* Models */,
+				005000000020 /* Views */,
+				005000000030 /* Services */,
+				005000000040 /* Managers */,
+				005000000050 /* Data */,
+				005000000060 /* Utilities */,
+				005000000070 /* Resources */,
+			);
+			path = Wiqayah;
+			sourceTree = "<group>";
+		};
+		005000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				003000000001 /* Wiqayah.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		005000000010 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				002000000010 /* User.swift */,
+				002000000011 /* BlockedApp.swift */,
+				002000000012 /* UsageSession.swift */,
+				002000000013 /* DhikrRequirement.swift */,
+				002000000014 /* DailyStats.swift */,
+				002000000015 /* VerificationResult.swift */,
+				002000000016 /* DhikrSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		005000000020 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				005000000021 /* Onboarding */,
+				005000000022 /* Main */,
+				005000000023 /* Blocker */,
+				005000000024 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		005000000021 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				002000000060 /* OnboardingContainerView.swift */,
+				002000000061 /* WelcomeView.swift */,
+				002000000062 /* HowItWorksView.swift */,
+				002000000063 /* SelectAppsView.swift */,
+				002000000064 /* SetLimitView.swift */,
+				002000000065 /* PermissionsView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		005000000022 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				002000000070 /* HomeView.swift */,
+				002000000071 /* StatsView.swift */,
+				002000000072 /* SettingsView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		005000000023 /* Blocker */ = {
+			isa = PBXGroup;
+			children = (
+				002000000080 /* BlockerOverlayView.swift */,
+				002000000081 /* RecordingView.swift */,
+				002000000082 /* VerificationResultView.swift */,
+				002000000083 /* PostRecitationView.swift */,
+				002000000084 /* LimitReachedView.swift */,
+			);
+			path = Blocker;
+			sourceTree = "<group>";
+		};
+		005000000024 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				002000000050 /* ProgressBar.swift */,
+				002000000051 /* AppIconView.swift */,
+				002000000052 /* WaveformView.swift */,
+				002000000053 /* PremiumBadge.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		005000000030 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				002000000020 /* AppBlockerService.swift */,
+				002000000021 /* SpeechRecognitionService.swift */,
+				002000000022 /* DhikrVerificationService.swift */,
+				002000000023 /* UsageTrackingService.swift */,
+				002000000024 /* PrayerTimeService.swift */,
+				002000000025 /* SubscriptionService.swift */,
+				002000000026 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		005000000040 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				002000000030 /* CoreDataManager.swift */,
+				002000000031 /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		005000000050 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				002000000091 /* adhkar.json */,
+				002000000092 /* blocked_apps.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		005000000060 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				002000000040 /* Constants.swift */,
+				002000000041 /* Extensions.swift */,
+				002000000042 /* HapticManager.swift */,
+				002000000043 /* MotivationalMessages.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		005000000070 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				002000000090 /* Assets.xcassets */,
+				002000000093 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		006000000001 /* Wiqayah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007000000001 /* Build configuration list for PBXNativeTarget "Wiqayah" */;
+			buildPhases = (
+				006000000010 /* Sources */,
+				004000000001 /* Frameworks */,
+				006000000020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wiqayah;
+			productName = Wiqayah;
+			productReference = 003000000001 /* Wiqayah.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		008000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					006000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 007000000002 /* Build configuration list for PBXProject "Wiqayah" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 005000000001;
+			productRefGroup = 005000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				006000000001 /* Wiqayah */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		006000000020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001000000090 /* Assets.xcassets in Resources */,
+				001000000091 /* adhkar.json in Resources */,
+				001000000092 /* blocked_apps.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		006000000010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001000000001 /* WiqayahApp.swift in Sources */,
+				001000000010 /* User.swift in Sources */,
+				001000000011 /* BlockedApp.swift in Sources */,
+				001000000012 /* UsageSession.swift in Sources */,
+				001000000013 /* DhikrRequirement.swift in Sources */,
+				001000000014 /* DailyStats.swift in Sources */,
+				001000000015 /* VerificationResult.swift in Sources */,
+				001000000016 /* DhikrSession.swift in Sources */,
+				001000000020 /* AppBlockerService.swift in Sources */,
+				001000000021 /* SpeechRecognitionService.swift in Sources */,
+				001000000022 /* DhikrVerificationService.swift in Sources */,
+				001000000023 /* UsageTrackingService.swift in Sources */,
+				001000000024 /* PrayerTimeService.swift in Sources */,
+				001000000025 /* SubscriptionService.swift in Sources */,
+				001000000026 /* NotificationService.swift in Sources */,
+				001000000030 /* CoreDataManager.swift in Sources */,
+				001000000031 /* AuthManager.swift in Sources */,
+				001000000040 /* Constants.swift in Sources */,
+				001000000041 /* Extensions.swift in Sources */,
+				001000000042 /* HapticManager.swift in Sources */,
+				001000000043 /* MotivationalMessages.swift in Sources */,
+				001000000050 /* ProgressBar.swift in Sources */,
+				001000000051 /* AppIconView.swift in Sources */,
+				001000000052 /* WaveformView.swift in Sources */,
+				001000000053 /* PremiumBadge.swift in Sources */,
+				001000000060 /* OnboardingContainerView.swift in Sources */,
+				001000000061 /* WelcomeView.swift in Sources */,
+				001000000062 /* HowItWorksView.swift in Sources */,
+				001000000063 /* SelectAppsView.swift in Sources */,
+				001000000064 /* SetLimitView.swift in Sources */,
+				001000000065 /* PermissionsView.swift in Sources */,
+				001000000070 /* HomeView.swift in Sources */,
+				001000000071 /* StatsView.swift in Sources */,
+				001000000072 /* SettingsView.swift in Sources */,
+				001000000080 /* BlockerOverlayView.swift in Sources */,
+				001000000081 /* RecordingView.swift in Sources */,
+				001000000082 /* VerificationResultView.swift in Sources */,
+				001000000083 /* PostRecitationView.swift in Sources */,
+				001000000084 /* LimitReachedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		009000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TKK25LPXVF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		009000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TKK25LPXVF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		009000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Wiqayah/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Wiqayah;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Wiqayah needs microphone access to verify your dhikr recitation before unlocking blocked apps.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Wiqayah uses speech recognition to verify your dhikr recitation and unlock blocked apps.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiqayah.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		009000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Wiqayah/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Wiqayah;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Wiqayah needs microphone access to verify your dhikr recitation before unlocking blocked apps.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Wiqayah uses speech recognition to verify your dhikr recitation and unlock blocked apps.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiqayah.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		007000000001 /* Build configuration list for PBXNativeTarget "Wiqayah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009000000003 /* Debug */,
+				009000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		007000000002 /* Build configuration list for PBXProject "Wiqayah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009000000001 /* Debug */,
+				009000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 008000000001 /* Project object */;
+}

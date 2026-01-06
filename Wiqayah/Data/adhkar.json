@@ -1,0 +1,127 @@
+{
+  "simple": [
+    {
+      "id": "subhanallah",
+      "name": "Subhanallah",
+      "arabic": "سُبْحَانَ ٱللَّٰهِ",
+      "transliteration": "Subhanallah",
+      "repetitions": 3,
+      "threshold": 0.7,
+      "category": "simple"
+    },
+    {
+      "id": "alhamdulillah",
+      "name": "Alhamdulillah",
+      "arabic": "ٱلْحَمْدُ لِلَّٰهِ",
+      "transliteration": "Alhamdulillah",
+      "repetitions": 3,
+      "threshold": 0.7,
+      "category": "simple"
+    },
+    {
+      "id": "allahu_akbar",
+      "name": "Allahu Akbar",
+      "arabic": "ٱللَّٰهُ أَكْبَرُ",
+      "transliteration": "Allahu Akbar",
+      "repetitions": 3,
+      "threshold": 0.7,
+      "category": "simple"
+    },
+    {
+      "id": "la_ilaha_illallah",
+      "name": "La ilaha illallah",
+      "arabic": "لَا إِلَٰهَ إِلَّا ٱللَّٰهُ",
+      "transliteration": "La ilaha illallah",
+      "repetitions": 3,
+      "threshold": 0.7,
+      "category": "simple"
+    },
+    {
+      "id": "astaghfirullah",
+      "name": "Astaghfirullah",
+      "arabic": "أَسْتَغْفِرُ ٱللَّٰهَ",
+      "transliteration": "Astaghfirullah",
+      "repetitions": 3,
+      "threshold": 0.7,
+      "category": "simple"
+    }
+  ],
+  "ayat": [
+    {
+      "id": "ayat_al_kursi",
+      "name": "Ayat al-Kursi",
+      "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+      "transliteration": "Allahu la ilaha illa huwal hayyul qayyum. La ta'khuzuhu sinatun wa la nawm. Lahu ma fis samawati wa ma fil ard. Man zal lazi yashfa'u 'indahu illa bi iznih. Ya'lamu ma bayna aydihim wa ma khalfahum. Wa la yuhituna bi shay'im min 'ilmihi illa bima sha'. Wasi'a kursiyyuhus samawati wal ard. Wa la ya'uduhu hifzuhuma wa huwal 'aliyyul 'azim.",
+      "repetitions": 1,
+      "threshold": 0.75,
+      "category": "ayat"
+    },
+    {
+      "id": "last_ayat_baqarah",
+      "name": "Last 2 Ayat of Surah Al-Baqarah",
+      "arabic": "آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِ ۚ وَقَالُوا سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ الْمَصِيرُ",
+      "transliteration": "Amanar rasulu bima unzila ilayhi mir rabbihi wal mu'minun. Kullun amana billahi wa mala'ikatihi wa kutubihi wa rusulihi la nufarriqu bayna ahadim mir rusulih. Wa qalu sami'na wa ata'na ghufranaka rabbana wa ilaykal masir.",
+      "repetitions": 1,
+      "threshold": 0.7,
+      "category": "ayat"
+    }
+  ],
+  "surahs": [
+    {
+      "id": "kahf_first_5",
+      "name": "Surah al-Kahf (First 5 Ayat)",
+      "arabic": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَنزَلَ عَلَىٰ عَبْدِهِ ٱلْكِتَـٰبَ وَلَمْ يَجْعَل لَّهُۥ عِوَجَا ۜ ﴿١﴾ قَيِّمًا لِّيُنذِرَ بَأْسًا شَدِيدًا مِّن لَّدُنْهُ وَيُبَشِّرَ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّـٰلِحَـٰتِ أَنَّ لَهُمْ أَجْرًا حَسَنًا ﴿٢﴾ مَّـٰكِثِينَ فِيهِ أَبَدًا ﴿٣﴾ وَيُنذِرَ ٱلَّذِينَ قَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًا ﴿٤﴾ مَّا لَهُم بِهِۦ مِنْ عِلْمٍ وَلَا لِـَٔابَآئِهِمْ ۚ كَبُرَتْ كَلِمَةً تَخْرُجُ مِنْ أَفْوَٰهِهِمْ ۚ إِن يَقُولُونَ إِلَّا كَذِبًا ﴿٥﴾",
+      "transliteration": "Alhamdu lillahil lazi anzala 'ala 'abdihi al-kitaba wa lam yaj'al lahu 'iwaja. Qayyiman liyunzira ba'san shadidan min ladunhu wa yubashshiral mu'mininal lazina ya'maluna as-salihati anna lahum ajran hasana. Makisina fihi abada. Wa yunziral lazina qalut takhaza Allahu walada. Ma lahum bihi min 'ilmin wa la li aba'ihim. Kaburat kalimatan takhruju min afwahihim. In yaquluna illa kaziba.",
+      "repetitions": 1,
+      "threshold": 0.7,
+      "category": "surah"
+    },
+    {
+      "id": "surah_ikhlas",
+      "name": "Surah Al-Ikhlas",
+      "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ﴿١﴾ ٱللَّهُ ٱلصَّمَدُ ﴿٢﴾ لَمْ يَلِدْ وَلَمْ يُولَدْ ﴿٣﴾ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌ ﴿٤﴾",
+      "transliteration": "Qul huwa Allahu ahad. Allahus samad. Lam yalid wa lam yulad. Wa lam yakul lahu kufuwan ahad.",
+      "repetitions": 3,
+      "threshold": 0.7,
+      "category": "surah"
+    },
+    {
+      "id": "surah_falaq",
+      "name": "Surah Al-Falaq",
+      "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ ﴿١﴾ مِن شَرِّ مَا خَلَقَ ﴿٢﴾ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ﴿٣﴾ وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ ﴿٤﴾ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ ﴿٥﴾",
+      "transliteration": "Qul a'uzu bi rabbil falaq. Min sharri ma khalaq. Wa min sharri ghasiqin iza waqab. Wa min sharrin naffasati fil 'uqad. Wa min sharri hasidin iza hasad.",
+      "repetitions": 3,
+      "threshold": 0.7,
+      "category": "surah"
+    },
+    {
+      "id": "surah_nas",
+      "name": "Surah An-Nas",
+      "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ ﴿١﴾ مَلِكِ ٱلنَّاسِ ﴿٢﴾ إِلَـٰهِ ٱلنَّاسِ ﴿٣﴾ مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ ﴿٤﴾ ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ ﴿٥﴾ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ ﴿٦﴾",
+      "transliteration": "Qul a'uzu bi rabbin nas. Malikin nas. Ilahin nas. Min sharril wasswasil khannas. Allazi yuwaswisu fi sudurin nas. Minal jinnati wan nas.",
+      "repetitions": 3,
+      "threshold": 0.7,
+      "category": "surah"
+    }
+  ],
+  "adhkar_sets": [
+    {
+      "id": "morning_adhkar",
+      "name": "Morning Adhkar Set",
+      "arabic": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ",
+      "transliteration": "Asbahna wa asbahal mulku lillah, walhamdu lillah, la ilaha illallahu wahdahu la sharika lah, lahul mulku wa lahul hamdu wa huwa 'ala kulli shay'in qadir.",
+      "repetitions": 1,
+      "threshold": 0.7,
+      "category": "adhkar_set"
+    },
+    {
+      "id": "evening_adhkar",
+      "name": "Evening Adhkar Set",
+      "arabic": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ",
+      "transliteration": "Amsayna wa amsal mulku lillah, walhamdu lillah, la ilaha illallahu wahdahu la sharika lah, lahul mulku wa lahul hamdu wa huwa 'ala kulli shay'in qadir.",
+      "repetitions": 1,
+      "threshold": 0.7,
+      "category": "adhkar_set"
+    }
+  ]
+}

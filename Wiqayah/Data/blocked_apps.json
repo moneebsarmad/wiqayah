@@ -1,0 +1,42 @@
+[
+  {
+    "id": "com.zhiliaoapp.musically",
+    "name": "TikTok",
+    "icon": "tiktok"
+  },
+  {
+    "id": "com.burbn.instagram",
+    "name": "Instagram",
+    "icon": "instagram"
+  },
+  {
+    "id": "com.google.ios.youtube",
+    "name": "YouTube",
+    "icon": "youtube"
+  },
+  {
+    "id": "com.facebook.Facebook",
+    "name": "Facebook",
+    "icon": "facebook"
+  },
+  {
+    "id": "com.toyopagroup.picaboo",
+    "name": "Snapchat",
+    "icon": "snapchat"
+  },
+  {
+    "id": "com.atebits.Tweetie2",
+    "name": "Twitter",
+    "icon": "twitter"
+  },
+  {
+    "id": "com.reddit.Reddit",
+    "name": "Reddit",
+    "icon": "reddit"
+  },
+  {
+    "id": "com.linkedin.LinkedIn",
+    "name": "LinkedIn",
+    "icon": "linkedin"
+  }
+]

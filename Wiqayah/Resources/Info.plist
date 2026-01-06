@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- App Information -->
+    <key>CFBundleName</key>
+    <string>Wiqayah</string>
+    <key>CFBundleDisplayName</key>
+    <string>Wiqayah</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+
+    <!-- iOS Deployment -->
+    <key>MinimumOSVersion</key>
+    <string>17.0</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UILaunchScreen</key>
+    <dict>
+        <key>UIColorName</key>
+        <string>LaunchScreenBackground</string>
+        <key>UIImageName</key>
+        <string>LaunchIcon</string>
+    </dict>
+
+    <!-- Device Orientation -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <!-- Permissions -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Wiqayah needs microphone access to verify your dhikr recitation before unlocking blocked apps.</string>
+
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Wiqayah uses speech recognition to verify your dhikr recitation and unlock blocked apps.</string>
+
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Wiqayah uses your location to calculate accurate Fajr prayer times for daily limit resets.</string>
+
+    <key>NSUserNotificationsUsageDescription</key>
+    <string>Wiqayah sends notifications for usage warnings and Fajr reminders.</string>
+
+    <!-- Background Modes -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>audio</string>
+        <string>processing</string>
+    </array>
+
+    <!-- App Transport Security -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <false/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>googleapis.com</key>
+            <dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+                <false/>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+
+    <!-- URL Schemes -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.wiqayah.app</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>wiqayah</string>
+            </array>
+        </dict>
+    </array>
+
+    <!-- Scene Configuration -->
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <false/>
+    </dict>
+
+    <!-- Appearance -->
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+</dict>
+</plist>
